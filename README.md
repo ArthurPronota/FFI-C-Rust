@@ -6,6 +6,11 @@
 
 ## Структура проекта
 
+Добавить зависимость в раздел `[build-dependencies]` файла `Cargo.toml`:
+```bash
+cargo add cc --build
+```
+
 ```
 bookstore-service/
 ├── Cargo.toml
